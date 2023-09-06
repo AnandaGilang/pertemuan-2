@@ -1,18 +1,11 @@
-def kurangi_dan_jumlah(himpunan1, himpunan2):
-    if len(himpunan1) != len(himpunan2):
-        return "Himpunan tidak memiliki jumlah elemen yang sama"
-    
-    hasil = []
-    for i in range(len(himpunan1)):
-        hasil.append(himpunan1[i] - himpunan2[i])
-    
-    jumlah = sum(hasil)
-    return hasil, jumlah
+def getSum(myList1, myList2):
+    sum1 = 0
+    sum2 = 0
+    for item in myList1:
+        sum1 += item
+    for item in myList2:
+        sum2 += item
+    hasil = sum1-sum2
+    return hasil
 
-# Contoh penggunaan
-himpunan1 = [10, 20, 30]
-himpunan2 = [2, 4, 6]
-
-hasil, jumlah = kurangi_dan_jumlah(himpunan1, himpunan2)
-print("Hasil Pengurangan:", hasil)
-print("Jumlah Hasil Pengurangan:", jumlah)
+print(getSum([1,2,3,4], [3,1,4,1]))

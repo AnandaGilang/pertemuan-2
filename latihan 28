@@ -1,0 +1,18 @@
+def kurangi_dan_jumlah(himpunan1, himpunan2):
+    if len(himpunan1) != len(himpunan2):
+        return "Himpunan tidak memiliki jumlah elemen yang sama"
+    
+    hasil = []
+    for i in range(len(himpunan1)):
+        hasil.append(himpunan1[i] - himpunan2[i])
+    
+    jumlah = sum(hasil)
+    return hasil, jumlah
+
+# Contoh penggunaan
+himpunan1 = [10, 20, 30]
+himpunan2 = [2, 4, 6]
+
+hasil, jumlah = kurangi_dan_jumlah(himpunan1, himpunan2)
+print("Hasil Pengurangan:", hasil)
+print("Jumlah Hasil Pengurangan:", jumlah)

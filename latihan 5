@@ -1,2 +1,5 @@
 import numpy as np
 print(np.__version__)
+#Big O Notation
+##Constant time (O(1)) complexity
+

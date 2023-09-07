@@ -3,3 +3,4 @@ def getKali(myList):
   for item in myList:
     sum = sum*item
   return sum
+getKali([1,2,3])

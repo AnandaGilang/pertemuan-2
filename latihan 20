@@ -8,4 +8,5 @@ def getaverage(myList):
       return rata_rata
    else:
        return 0
+getaverage([1,2,3])
       

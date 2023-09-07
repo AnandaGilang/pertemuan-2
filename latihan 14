@@ -1,3 +1,6 @@
-def getsecond(myList):
-  return myList[0]
-getsecond([1,2,3])
+def getSum(myList) : 
+  sum = 0
+  for item in myList : 
+    sum = sum+item
+  return sum
+  

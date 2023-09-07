@@ -1,3 +1,2 @@
-print("hello world")
-print("nama saya gilang")
-print("nim saya 2022071022")
+if 5>2:
+  print("Five is greater than two!")

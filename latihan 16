@@ -3,4 +3,5 @@ def getSum(myList) :
   for item in myList : 
     sum = sum+item
   return sum
+getSum([[1,2,5],[3,4,7]])
   

@@ -3,3 +3,4 @@ def getBagi(myList):
   for item in myList:
     sum = sum/item
   return sum
+getBagi([3,2])
